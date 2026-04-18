@@ -1,5 +1,5 @@
-# Monday-coffee-Sales
-# ☕ Monday Coffee — Sales & Market Expansion Analysis
+# Amber&Ash-coffee-Sales
+# ☕ Amber&Ash Coffee — Sales & Market Expansion Analysis
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-Data_Analysis-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Window Functions](https://img.shields.io/badge/Window_Functions-CTEs-003B57?style=for-the-badge)
