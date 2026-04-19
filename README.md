@@ -1,6 +1,6 @@
 # Monday-Coffee-Sales
 
-# Monday Coffee — Sales & Market Expansion Analysis
+# Monday Coffee: Sales & Market Expansion Analysis
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-Data_Analysis-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -12,32 +12,31 @@
 
 -----
 
-##  Table of Contents
+## Table of Contents
 
 - [Executive Summary](#1-executive-summary)
-- [Problem Statement](#-problem-statement)
-- [Project Objectives](#-project-objectives)
-- [Project Overview](#-project-overview)
+- [Problem Statement](#problem-statement)
+- [Project Objectives](#project-objectives)
+- [Project Overview](#project-overview)
   - [Database Schema](#database-schema)
   - [Key Questions](#key-questions)
+  - [Business Answers](#business-answers)
 - [Key Insights](#2-key-insights)
   - [Revenue Performance](#21-revenue-performance)
   - [Customer Value & Spend](#22-customer-value--spend)
   - [Product Portfolio](#23-product-portfolio)
   - [Market Penetration](#24-market-penetration)
   - [Sales Growth Momentum](#25-sales-growth-momentum)
-- [Strategic Recommendations](#3-strategic-recommendations)
+- [Recommendations](#3-recommendations)
 - [Conclusion](#4-conclusion)
-- [Tools & Technologies](#️-tools--technologies)
-- [Author](#-author)
+- [Tools & Technologies](#tools--technologies)
+- [Author](#author)
 
 -----
 
 ## MONDAY COFFEE
 
 ### Business Performance & Expansion Strategy
-
-
 
 |**₹3.86M+** Total Revenue (All-Time)|**₹1.44M** Q4 2023 Revenue|**Cold Brew** Top-Selling Product|**10** Cities Tracked|
 |------------------------------------|--------------------------|---------------------------------|---------------------|
@@ -57,9 +56,9 @@ Overall, Pune, Chennai, and Bangalore present the strongest expansion opportunit
 
 -----
 
-##  Problem Statement
+## Problem Statement
 
-Monday, a coffee retailer brand that began selling its products in 2023, is looking to expand its physical presence by opening new café locations across India. Despite growing online sales, the company lacks clarity on which cities offer the strongest market opportunity — based on actual consumer demand, revenue performance, and cost efficiency.
+Monday, a coffee retailer brand that began selling its products in 2023, is looking to expand its physical presence by opening new café locations across India. Despite growing online sales, the company lacks clarity on which cities offer the strongest market opportunity based on actual consumer demand, revenue performance, and cost efficiency.
 
 The core business challenge is: **which cities should Monday Coffee prioritise for physical expansion, and why?**
 
@@ -67,13 +66,13 @@ Without a structured analysis of sales performance, customer behaviour, and mark
 
 -----
 
-##  Project Objectives
+## Project Objectives
 
- **Quantify the coffee consumer market** in each city based on population estimates.
- **Evaluate revenue performance** by city, including quarterly and monthly growth trends.
- **Identify top-performing products** by sales volume, both overall and at a city level.
- **Assess customer value** by measuring average sales per customer across cities.
- **Benchmark operating costs** by comparing average rent per customer against revenue generated.
+**Quantify the coffee consumer market** in each city based on population estimates.
+**Evaluate revenue performance** by city, including quarterly and monthly growth trends.
+**Identify top-performing products** by sales volume, both overall and at a city level.
+**Assess customer value** by measuring average sales per customer across cities.
+**Benchmark operating costs** by comparing average rent per customer against revenue generated.
 **Recommend the top 3 cities** for physical store expansion based on data-driven insights.
 
 -----
@@ -108,6 +107,10 @@ The project uses four relational tables:
 |9 |Monthly sales growth rate by city                                   |Revenue trend analysis    |
 |10|Top 3 cities by total sales, rent, customers, and consumer potential|Expansion recommendation  |
 
+### Business Answers
+
+> 📄 View the full SQL query responses and business answers here: [Business Questions_Answered.md](Business%20Questions%20_Answered.md)
+
 -----
 
 ## 2. Key Insights
@@ -133,11 +136,10 @@ Average spend per customer is highest in Pune (₹24,198), Chennai (₹22,479), 
 |Pune     |24,197.88                    |294.23                      |High                |
 |Chennai  |22,479.05                    |407.14                      |High                |
 |Bangalore|22,054.10                    |761.54                      |Moderate            |
- 
 
 ### 2.3 Product Portfolio
 
-Four core coffee products drive the overwhelming majority of sales volume. Cold Brew Coffee Pack (6 Bottles) leads with 1,326 units — a 4.3% margin over second-place Ground Espresso Coffee. Merchandise (Tote Bag) trails significantly, indicating limited appetite for non-consumable items at current pricing or placement.
+Four core coffee products drive the overwhelming majority of sales volume. Cold Brew Coffee Pack (6 Bottles) leads with 1,326 units, a 4.3% margin over second-place Ground Espresso Coffee. Merchandise (Tote Bag) trails significantly, indicating limited appetite for non-consumable items at current pricing or placement.
 
 |**Product**                      |**Units Sold**|**Rank**|
 |---------------------------------|--------------|--------|
@@ -149,7 +151,7 @@ Four core coffee products drive the overwhelming majority of sales volume. Cold 
 
 ### 2.4 Market Penetration
 
-Despite having the largest estimated coffee consumer base (7.75M), Delhi has only 68 active customers — a penetration rate that trails Chennai, which converts 42 customers from a base of just 2.78M. This signals a structural under-performance in Delhi relative to market size and represents a material opportunity.
+Despite having the largest estimated coffee consumer base (7.75M), Delhi has only 68 active customers, a penetration rate that trails Chennai, which converts 42 customers from a base of just 2.78M. This signals a structural under-performance in Delhi relative to market size and represents a material opportunity.
 
 |**City** |**Est. Coffee Consumers (M)**|**Active Customers**|**Penetration Signal**|
 |---------|-----------------------------|--------------------|----------------------|
@@ -161,7 +163,7 @@ Despite having the largest estimated coffee consumer base (7.75M), Delhi has onl
 
 ### 2.5 Sales Growth Momentum
 
-Month-on-month sales growth data highlights strong positive momentum in select cities. Ahmedabad recorded 94% growth in November 2023, Jaipur 51% in October 2023, and Pune 69% in July 2023. These spikes may reflect seasonal demand, promotional activity, or new customer acquisition — all warranting further investigation to assess repeatability.
+Month-on-month sales growth data highlights strong positive momentum in select cities. Ahmedabad recorded 94% growth in November 2023, Jaipur 51% in October 2023, and Pune 69% in July 2023. These spikes may reflect seasonal demand, promotional activity, or new customer acquisition, all warranting further investigation to assess repeatability.
 
 -----
 
@@ -173,16 +175,16 @@ Based on analysis of revenue performance, customer, market penetration, and oper
 These three cities deliver the highest revenue, strongest customer spend, and favorable rent economics. Pune’s rent-per-customer of just ₹294 versus a ₹24,198 average spend creates a compelling unit economics case. Board should approve dedicated expansion budgets for new outlets or increased marketing investment in this tier.
 
 **2. Activate Delhi’s Untapped Market Potential**
-Delhi has India’s largest estimated coffee consumer base (7.75M) yet ranks 5th in revenue. A targeted acquisition campaign — through digital channels, corporate partnerships, or localized promotions — could yield significant revenue uplift with minimal incremental infrastructure investment.
+Delhi has India’s largest estimated coffee consumer base (7.75M) yet ranks 5th in revenue. A targeted acquisition campaign through digital channels, corporate partnerships, or localized promotions could yield significant revenue uplift with minimal incremental infrastructure investment.
 
 **3. Double Down on Cold Brew & Core Coffee Products**
 Cold Brew Coffee Pack and Ground Espresso account for over half of all units sold. Inventory planning, supplier negotiations, and promotional calendars should be anchored around these products. Consider bundling strategies to increase average order value and cross-sell Instant Coffee Powder and Beans alongside top sellers.
 
 **4. Review & Reposition the Merchandise Line**
-The Tote Bag (776 units) underperforms the core coffee portfolio by 41%. The Board should review the merchandising strategy — either repositioning tote bags as gift-set add-ons, renegotiating supplier costs to improve margins, or discontinuing if contribution remains below threshold.
+The Tote Bag (776 units) underperforms the core coffee portfolio by 41%. The Board should review the merchandising strategy: either repositioning tote bags as gift-set add-ons, renegotiating supplier costs to improve margins, or discontinuing if contribution remains below threshold.
 
 **5. Formalize Growth Tracking & Monthly Revenue Reporting**
-Growth spikes of 50–94% in cities like Ahmedabad and Jaipur suggest untapped momentum that is not yet being systematically captured or amplified. A monthly performance dashboard presented to the Board — covering revenue growth, customer acquisition, and per-city profitability — will enable faster, data-driven capital allocation decisions.
+Growth spikes of 50–94% in cities like Ahmedabad and Jaipur suggest untapped momentum that is not yet being systematically captured or amplified. A monthly performance dashboard presented to the Board, covering revenue growth, customer acquisition, and per-city profitability, will enable faster, data-driven capital allocation decisions.
 
 -----
 
@@ -194,7 +196,7 @@ Monday Coffee is well-positioned for growth. The data confirms a premium market 
 
 -----
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 |Tool                   |Purpose                                                    |
 |-----------------------|-----------------------------------------------------------|
@@ -206,7 +208,7 @@ Monday Coffee is well-positioned for growth. The data confirms a premium market 
 
 -----
 
-## 👤 Author
+## Author
 
 **[Adebisi Farouk]**  
 Data Analyst / Business Analyst | SQL · Data Analysis · Business Intelligence
