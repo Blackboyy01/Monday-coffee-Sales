@@ -99,7 +99,7 @@ The project uses four relational tables:
 |`sales`    |Transaction records with date, product, customer, revenue, and rating|
 
 ### View Queries
-[View Queries](Monday%20Coffee.sql)
+[View Queries](monday%20coffee.sql)
 
 ### Key Questions
 
